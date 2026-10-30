@@ -1,5 +1,31 @@
 # 网站设计灵感库
 
+## 视觉精选：美观、炫酷、有质感
+
+这一组按网站本身的视觉与交互表现挑选，优先观察整体艺术指导、排版、色彩和动态体验。部分案例依赖 WebGL 或动画，建议用桌面浏览器体验；标记“资料参考”的描述来自作品介绍或设计拆解，并非本次完整实测。
+
+| 网站 | 看什么 | 参考依据 |
+| --- | --- | --- |
+| [Exat Typeface](https://exat.hottype.co/) | 橙色底配超大白色字形，字体本身成为主视觉；看字重、尺度、版面与字体试用器 | 本次查看首页；[CSSDA 2025 最佳 UI](https://www.cssdesignawards.com/blog/2025-website-of-the-year-winners/430/) |
+| [Heron AI](https://heronaiapp.com/) | 米色图纸、炭笔建筑、细网格与橙红标记；首页可拖拽框选图纸 | [设计拆解](https://rickcreates.com/r/2026-10-12-heron-ai)；概念展示，并非真实产品 |
+| [Lando Norris](https://landonorris.com/) | 人像、头盔与荧光绿形成鲜明身份；关注光标效果和滚动转场 | [设计拆解](https://rickcreates.com/year)，资料参考 |
+| [The Symphony of Vines](https://symphonyofvines.unseen.co/) | 电影式场景、空间纵深与滚动叙事，体验画面、声音和节奏的结合 | [项目介绍](https://symphonyofvines.unseen.co/)；[CSSDA 2025 年度前十](https://www.cssdesignawards.com/blog/2025-website-of-the-year-winners/430/) |
+| [Dropbox Brand](https://brand.dropbox.com/) | 高饱和色彩、图形、插画和互动结合；观察品牌规范如何变成可探索的视觉体验 | [CSSDA 2025 年度网站](https://www.cssdesignawards.com/blog/2025-website-of-the-year-winners/430/) |
+| [Jesper Landberg](https://jesperlandberg.com/) | 黑色空间中的弯曲作品卡片；观察滚动形变、光标反馈和黑洞式转场 | [设计拆解](https://rickcreates.com/r/2026-09-29-jesper-landberg)，资料参考 |
+| [Sleep Well Creatives](https://sleep-well-creatives.com/) | 米白与蓝色统一三维插画和文字；观察场景如何像绘本一样衔接 | [设计拆解](https://rickcreates.com/r/2026-02-07-sleep-well-creative)，资料参考 |
+| [Igloo Inc](https://igloo.inc/) | 冰雪世界、三维场景和极简线框标签；看滚动镜头与材质氛围 | [设计拆解](https://rickcreates.com/r/2024-07-23-igloo-inc)；文本检索无法读取动态画面 |
+| [Lusion](https://lusion.co/) | 三维空间、材质与细致互动；适合研究沉浸式视觉叙事 | 已在旧清单收录；[Lusion v3 拆解](https://rickcreates.com/year)，网站可能已改版 |
+| [Bruno Simon](https://bruno-simon.com/) | 把作品集做成可驾驶探索的三维世界；观察场景、镜头与交互 | 已在旧清单收录；[CSSDA 2025 最佳作品集](https://www.cssdesignawards.com/blog/2025-website-of-the-year-winners/430/) |
+| [Active Theory](https://activetheory.net/) | 数字空间、三维、动效与沉浸式项目展示 | [案例介绍](https://webcity.design/articles/best-agency-websites)；文本检索提示需要 JavaScript |
+| [BASIC/DEPT®](https://www.basicagency.com/) | 大字、作品画面与品牌化编辑版式的组合 | [案例介绍](https://webcity.design/articles/best-agency-websites)，资料参考 |
+| [BUCK](https://buck.co/) | 动画、插画与品牌视觉作品的表达 | [案例介绍](https://webcity.design/articles/best-agency-websites)，资料参考 |
+| [COLLINS](https://wearecollins.com/) | 品牌故事、排版和精选项目的编辑式呈现 | [案例介绍](https://webcity.design/articles/best-agency-websites)，资料参考 |
+
+> 视觉精选是审美参考，不代表直接照搬整站。优先借鉴具体的配色、构图、字体、动效节奏和交互逻辑，再结合目标网站实际需求调整。
+
+---
+
+
 收集日期：2026-10-30。用于查找视觉、信息组织和交互方面的参考；网站可能随时间改版，具体效果以当前页面为准。以下是建议观察的方向，并非可用性或无障碍验收结论。
 
 ## 产品与工具网站
