@@ -55,3 +55,75 @@
 - [创意网站示例](https://www.youtube.com/watch?v=RGWXVbkrYKM)
 
 使用时优先根据项目内容、受众和功能选择参考，关注可读性、移动端、性能与键盘操作；视觉形式需要结合实际体验判断。
+
+
+## 扩充：科研与单细胞
+
+| 网站 | 适合参考的方向 |
+| --- | --- |
+| [Human Cell Atlas](https://www.humancellatlas.org/) | 跨机构研究计划的介绍、社区和资源入口；适合单细胞项目参考 |
+| [Broad Institute](https://www.broadinstitute.org/) | 大型研究机构如何组织研究方向、成果和新闻 |
+| [Allen Institute](https://alleninstitute.org/) | 科研团队、开放科学资源与研究故事的组织 |
+| [EMBL-EBI](https://www.ebi.ac.uk/) | 生物信息资源门户的搜索、数据入口与分类 |
+| [NHGRI](https://www.genome.gov/) | 基因组研究、科普与资源入口；可观察阅读辅助选项 |
+| [eLife](https://elifesciences.org/) | 学术文章列表、检索和研究内容阅读入口 |
+| [Nature](https://www.nature.com/) | 期刊栏目、论文、新闻和搜索入口的组织 |
+
+## 扩充：数据可视化与互动叙事
+
+| 网站 | 适合参考的方向 |
+| --- | --- |
+| [Our World in Data](https://ourworldindata.org/) | 按主题组织数据、文章和图表；适合数据密集型知识站 |
+| [Gapminder](https://www.gapminder.org/) | 用互动工具和教学内容解释宏观数据 |
+| [Observable](https://observablehq.com/) | 数据笔记本、可视化案例与代码的结合 |
+| [FlowingData](https://flowingdata.com/) | 图表故事、案例索引和可视化学习资源 |
+| [Information is Beautiful](https://informationisbeautiful.net/) | 信息图表、视觉化专题和项目归档 |
+| [Neal.fun](https://neal.fun/) | 独立互动作品的入口、趣味叙事与参与感 |
+
+## 扩充：科学写作与阅读
+
+| 网站 | 适合参考的方向 |
+| --- | --- |
+| [Distill](https://distill.pub/) | 机器学习文章中的图解、正文与交互式解释；历史文章可作为参考 |
+| [Quanta Magazine](https://www.quantamagazine.org/) | 科学报道的主题导航、插图和长文叙事 |
+| [Aeon](https://aeon.co/) | 长文阅读、封面图片与专题栏目组织 |
+| [Readwise](https://readwise.io/) | 阅读内容、摘录和产品介绍之间的关系 |
+| [It's Nice That](https://www.itsnicethat.com/) | 创意媒体的多栏目导航、文章列表和图片编排 |
+| [Are.na](https://www.are.na/) | 跨媒介素材收藏、内容集合及发现路径 |
+
+## 扩充：产品与开发工具
+
+| 网站 | 适合参考的方向 |
+| --- | --- |
+| [Raycast](https://www.raycast.com/) | 通过键盘视觉与功能示例传达效率工具的特点 |
+| [Resend](https://resend.com/) | 开发者产品的功能说明、代码与文档入口 |
+| [Attio](https://attio.com/) | 复杂 SaaS 产品的功能导航、演示和场景组织 |
+| [Cursor](https://cursor.com/) | 开发工具的产品叙述、下载入口和技术内容 |
+
+## 扩充：电商与生活方式
+
+| 网站 | 适合参考的方向 |
+| --- | --- |
+| [Peak Design](https://www.peakdesign.com/) | 产品分类、使用场景、产品内容与品牌故事 |
+| [Aesop](https://www.aesop.com/) | 商品分类、文字风格和品牌呈现；本次检索显示部分功能受限 |
+| [Patagonia](https://www.patagonia.com/) | 商品目录、户外故事与品牌议题的衔接 |
+| [MUJI](https://www.muji.com/) | 多品类商品、导航和产品列表的信息组织 |
+| [Allbirds](https://www.allbirds.com/) | 商品分类、图片、材质说明与品牌内容 |
+| [HAY](https://www.hay.com/) | 家居产品、设计师与品牌内容的呈现 |
+
+## 扩充：文化与展览
+
+| 网站 | 适合参考的方向 |
+| --- | --- |
+| [MoMA](https://www.moma.org/) | 展览、藏品、活动和访问入口的组织 |
+| [Rijksmuseum](https://www.rijksmuseum.nl/) | 博物馆藏品、参观信息和内容探索 |
+
+## 本轮发现来源与使用说明
+
+- [SaaS 网站设计参考](https://www.regards.design/websites/saas)：查找产品展示和 SaaS 网站案例。
+- [Web Stylebook](https://webstylebook.com/references)：按产品、技术、内容、电商等类别查找案例。
+- [Framer Gallery](https://www.framer.com/community/gallery/)：按行业与页面类型查找网站。
+- [编辑与出版网站案例](https://websitedesignawards.com/category/editorial)：继续查找内容和出版设计。
+- [交互新闻案例清单](https://github.com/wbkd/awesome-interactive-journalism)：查找数据叙事和交互报道。
+
+本轮主要通过公开页面和检索资料筛选；以上为具体观察方向，不代表已逐项完成视觉、移动端、性能、无障碍或交互体验验收。网站可能改版或存在地区、脚本限制。
