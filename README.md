@@ -1,5 +1,31 @@
 # 网站设计灵感库
 
+## 补充：从推荐文章与知乎问题发现的个人网站
+
+按你的参考方向，优先看首页与内容板块如何组织；标明实际查看范围，网站效果可能随时间变化。
+
+| 网站 | 可参考的结构 | 核查情况 |
+| --- | --- | --- |
+| [Aistar](https://blog.aistar.cool/) | 首页左侧介绍和入口，右侧推荐阅读；下方串联最新文章、项目和分类，顶部导航覆盖文章、项目、关于及友链 | 来自知乎回答；已查看桌面首页，未逐项测试功能 |
+| [Neil 的自留地](https://neilmin.com/zh/) | 个人简介、博客/项目/关于入口和最近文章；标题、摘要、标签、日期与阅读时间形成阅读层次 | 已查看桌面首页；文章作者的网站 |
+| [Evan Luo](https://portfolio.ohevan.com/) | 个人信息、项目和摄影作品结合，观察个人介绍与不同内容的连续编排 | 来自 Neil 的文章；已读取页面内容，视觉及交互待进一步核查 |
+| [Joe Coleman](https://getcoleman.com/) | 作品集、简历、奖项、文章等入口；观察个人职业信息与作品索引 | 来自 Neil 的文章；已读取页面内容，视觉及交互待进一步核查 |
+| [Antoine Wodniack](https://wodniack.dev/) | About、Work、Contact 形成个人介绍到作品和联系的路径 | 来自 Neil 的文章；已读取页面内容，视觉及交互待进一步核查 |
+| [Gregory Koberger](https://gkoberger.com/) | 以个人经历、所建项目、生活与时间线呈现个人信息；偏探索式，适合借鉴内容组织 | 来自 Neil 的文章；已读取页面内容，视觉及交互待进一步核查 |
+
+来源：[我喜欢的一些个人网站](https://neilmin.com/zh/posts/favorite-personal-websites/)；[知乎：选出一个最美的个人博客&网站，你会选择哪个？](https://www.zhihu.com/question/639181262)。知乎本次仅查看页面已加载的部分回答。
+
+### 来源中的其他候选，待验证是否适合整体布局参考
+
+- [POETIZE](https://poetize.cn/)：知乎回答中的博客项目；当前页面内容未能通过文本方式读取，需进一步查看实际界面。
+- [Alana Goyal](https://alanagoyal.com/finder)、[Sharyap](https://sharyap.com/)：文章介绍的桌面/窗口式个人站，本次未能核实当前页面。
+- [Mero Dev](https://merodev.net/)、[Logartis](https://logartis.info/)：文章中的 3D 网站，当前界面待验证，偏交互探索。
+- [Anime.js](https://animejs.com/)：文章中的动画库网站，并非个人站。
+- [Josh Comeau](https://www.joshwcomeau.com/) 和 [Bruno Simon](https://bruno-simon.com/) 已在下方收录；后者偏游戏化互动。
+
+---
+
+
 ## 个人主页精选：整体布局与板块设计
 
 这组以真实个人网站为参考，重点看个人介绍、导航、项目、文章和链接如何组成完整页面。以下已查看桌面首页，部分还浏览了下方板块；并非移动端或完整功能测试。页面会改版，源码与线上版本不一定一致。
