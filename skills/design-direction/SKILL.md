@@ -1,6 +1,6 @@
 ---
 name: design-direction
-description: Help users who cannot describe their preferred website appearance choose a design direction through concrete references and plain-language comparisons, then turn preferences into a usable page and visual brief. Use for ambiguous aesthetic requests, reference mixing, or deciding a website's overall layout before building. Do not force a discovery flow for precise edits or an already settled design.
+description: Help users who cannot describe their preferred website appearance choose a design direction through concrete references and plain-language comparisons, then turn preferences into a usable page and visual brief. Use for ambiguous aesthetic requests, reference mixing, overall website layout, or requests to reduce generic AI-looking design. Do not force a discovery flow for precise edits or an already settled design.
 ---
 
 # Design Direction
@@ -41,6 +41,19 @@ Scale the detail to the project. When producing a durable brief, use `DESIGN-BRI
 - A short acceptance checklist tied to real tasks, plus any unresolved assumptions.
 
 Before building, ask whether the plan would remain identical if the subject and content changed. If so, reconsider the parts that should respond to the brief. Preserve existing design-system choices that work. Do not add visual novelty just to differ.
+
+## Review generic defaults in context
+
+Use this review when requested to reduce an AI-looking design, or when checking the implemented direction. For an existing site, start with its content, chosen style and task paths; do not restart preference discovery unless the direction itself is unresolved. These are contextual warning signs, not evidence that AI authored a page:
+
+- A stock sequence of oversized hero, three feature cards, metrics, testimonials and CTA: require a content or visitor-task reason for each section. Remove unsupported sections; never invent numbers or testimonials to fill them.
+- Equal cards for unequal content: check whether articles, projects or data need a list, index or table. Keep cards when grouping and comparison justify them.
+- Competing gradients, glows, glass and motion: identify which effects support the chosen identity, hierarchy or feedback. Reduce competition without banning a palette or technique.
+- Oversized headings, excessive spacing or faint text: inspect real content lengths and mobile layouts before changing type scale, width, spacing or contrast.
+- Interchangeable copy and structure: replace generic claims with actual content and a useful organization specific to the brief. Do not fabricate subject matter.
+- A polished hero with weak inner pages or broken states: prioritize the visitor's core path and consistency across pages over more hero decoration.
+
+Report only the most consequential findings, usually three to five, with location, observed evidence, user impact and a concrete correction. Separate preference disagreements from usability defects. Without visual access, mark visual findings unverified. Do not invent a numerical AI-likeness score. Preserve explicit user preferences and established design systems; avoid converging every project on monochrome minimalism. After corrections, revisit the same views and tasks, checking both usability and fidelity to the selected direction.
 
 ## Continue within the requested scope
 
