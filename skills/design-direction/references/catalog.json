@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "updated_on": "2026-11-01",
+  "status": "seed-index; historical observations, no new visual verification",
+  "records": [
+    {
+      "id": "brittany-chiang",
+      "name": "Brittany Chiang",
+      "url": "https://brittanychiang.com/",
+      "tags": {
+        "layout": [
+          "双栏",
+          "固定身份区",
+          "履历列表"
+        ],
+        "density": "中",
+        "mood": "沉稳、清晰"
+      },
+      "sections": [
+        "介绍",
+        "工作经历",
+        "项目"
+      ],
+      "use_when": "履历和项目需要持续阅读时",
+      "do_not_copy_blindly": "纯文字履历结构不适合直接承载大型摄影集",
+      "evidence": {
+        "observed_on": "2026-10-30",
+        "level": "desktop-partial",
+        "note": "已查看桌面首页及经历区，移动端未验收",
+        "source": "Existing curated README and inspection notes from this repository",
+        "screenshots": []
+      }
+    },
+    {
+      "id": "josh-comeau",
+      "name": "Josh Comeau",
+      "url": "https://www.joshwcomeau.com/",
+      "tags": {
+        "layout": [
+          "文章列表",
+          "分类侧栏"
+        ],
+        "density": "高",
+        "mood": "亲切、内容导向"
+      },
+      "sections": [
+        "文章列表",
+        "分类",
+        "热门内容"
+      ],
+      "use_when": "文章较多且需要浏览和发现时",
+      "do_not_copy_blindly": "不能把内容组织效果全部归因于装饰",
+      "evidence": {
+        "observed_on": "2026-10-30",
+        "level": "desktop-partial",
+        "note": "已查看桌面首页和文章列表，完整交互未验收",
+        "source": "Existing curated README and inspection notes from this repository",
+        "screenshots": []
+      }
+    },
+    {
+      "id": "zyyo",
+      "name": "Zyyo",
+      "url": "https://zyyo.net/",
+      "tags": {
+        "layout": [
+          "混合尺寸卡片",
+          "网格"
+        ],
+        "density": "中",
+        "mood": "个性、丰富"
+      },
+      "sections": [
+        "简介",
+        "时间",
+        "博客",
+        "笔记",
+        "照片",
+        "音乐"
+      ],
+      "use_when": "个人站内容类型较多，需要入口聚合时",
+      "do_not_copy_blindly": "避免给所有内容相同权重，深色网格背景不必沿用",
+      "evidence": {
+        "observed_on": "2026-10-30",
+        "level": "desktop-partial",
+        "note": "已查看桌面首页，源码对应关系未验证",
+        "source": "Existing curated README and inspection notes from this repository",
+        "screenshots": []
+      }
+    },
+    {
+      "id": "maggie-appleton",
+      "name": "Maggie Appleton",
+      "url": "https://maggieappleton.com/",
+      "tags": {
+        "layout": [
+          "阅读入口",
+          "知识花园"
+        ],
+        "density": "中",
+        "mood": "温暖、编辑感"
+      },
+      "sections": [
+        "简介",
+        "知识花园",
+        "导航"
+      ],
+      "use_when": "个人知识积累和长文阅读",
+      "do_not_copy_blindly": "衬线字体及暖色只是表达手段，不是高级感公式",
+      "evidence": {
+        "observed_on": "2026-10-30",
+        "level": "desktop-home-only",
+        "note": "仅桌面首页；下方内容与移动端待核查",
+        "source": "Existing curated README and inspection notes from this repository",
+        "screenshots": []
+      }
+    },
+    {
+      "id": "aistar",
+      "name": "Aistar",
+      "url": "https://blog.aistar.cool/",
+      "tags": {
+        "layout": [
+          "介绍与推荐双栏",
+          "分区内容列表"
+        ],
+        "density": "高",
+        "mood": "清爽、实用"
+      },
+      "sections": [
+        "介绍",
+        "推荐文章",
+        "最新文章",
+        "项目",
+        "分类"
+      ],
+      "use_when": "同时提供内容阅读与项目发现时",
+      "do_not_copy_blindly": "首页介绍与推荐列需要随内容长度重新平衡",
+      "evidence": {
+        "observed_on": "2026-10-30",
+        "level": "desktop-home-only",
+        "note": "查看桌面首屏与页面结构，未逐项测试交互",
+        "source": "Existing curated README and inspection notes from this repository",
+        "screenshots": []
+      }
+    },
+    {
+      "id": "evan-luo",
+      "name": "Evan Luo",
+      "url": "https://portfolio.ohevan.com/",
+      "tags": {
+        "layout": [
+          "连续项目展示",
+          "图文作品集"
+        ],
+        "density": "中",
+        "mood": "待视觉确认"
+      },
+      "sections": [
+        "个人信息",
+        "项目",
+        "摄影"
+      ],
+      "use_when": "作为项目与摄影混合编排的候选",
+      "do_not_copy_blindly": "仅读取文本，不可据此认定视觉质量",
+      "evidence": {
+        "observed_on": "2026-10-30",
+        "level": "text-only",
+        "note": "视觉与交互待核查，不能作为已验证视觉推荐",
+        "source": "Existing curated README and inspection notes from this repository",
+        "screenshots": []
+      }
+    }
+  ]
+}
