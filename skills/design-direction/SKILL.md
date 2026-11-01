@@ -1,62 +1,60 @@
 ---
 name: design-direction
-description: Help users who cannot describe their preferred website appearance choose a design direction through concrete references and plain-language comparisons, then turn preferences into a usable page and visual brief. Use for ambiguous aesthetic requests, reference mixing, overall website layout, or requests to reduce generic AI-looking design. Do not force a discovery flow for precise edits or an already settled design.
+description: Help people who cannot describe a website's appearance choose through real whole-site references, record what they like, and turn that choice into page structure and a buildable design brief. Use for ambiguous aesthetic requests, reference mixing, overall layout decisions, or reducing generic AI-looking design. Preserve a settled direction for precise edits.
+license: Apache-2.0
 ---
 
 # Design Direction
 
-Help the user express preferences by recognizing examples rather than requiring design vocabulary. Use their language. Treat aesthetic choices as decisions about their actual content and visitors.
+Make preferences visible and decisions traceable: content and tasks → suitable real references → recognizable alternatives → a recorded choice → implementation → evidence-based review. Speak the user's language, not design jargon. Methods adapted from Impeccable are credited in [NOTICE.md](NOTICE.md).
 
-## Establish what the site must do
+## Route by the actual request
 
-Use the current brief and project context first. If necessary, ask one compact question about purpose, main content, and the visitor's most important action. Do not start with a long questionnaire about colors and fonts. Respect existing brands, selected references and explicit instructions.
+- **Uncertain direction:** read [direction-workflow.md](references/direction-workflow.md). Start from known purpose, content and visitor tasks; ask only what materially changes the result.
+- **Clear reference or delegated choice:** extract the binding choices and proceed within scope. Do not manufacture another approval round.
+- **Existing page needs polish or less AI-looking design:** inspect the incumbent, then read [review.md](references/review.md). Do not restart identity selection for a local fix.
+- **Asked to build:** continue from the selected direction into implementation. Planning alone is incomplete for a build request; a direction-only request does not authorize building or publishing.
 
-If the user delegates design choices, make a justified choice and proceed. Do not create an approval gate merely because a direction has not been named. If they are actively choosing between options, wait for that choice before committing to a dependent design.
+## Classify each page by visitor success
 
-## Offer concrete, contrasting directions
+Borrow Impeccable's surface distinction, not an industry taxonomy:
 
-For an uncertain user, read [the seed catalog](references/catalog.json) and shortlist about three meaningfully different directions that can support the content. The catalog is a starting point, not an exhaustive set of permitted styles. Search beyond it when suitable tools are available and the brief needs other directions.
+| Mode | Visitor succeeds when… | Design consequence |
+| --- | --- | --- |
+| `read` | They find and understand information | Readable text, indexes, search where needed, navigation and inner pages |
+| `operate` | They complete a task | Predictable controls, useful density, visible states and recovery |
+| `persuade` | They can evaluate an offer and act | Real evidence, clear sequence and an appropriate primary action |
+| `experience` | They explore the work itself | Artifacts lead, discoverable navigation, usable exploration |
 
-Explain each direction with an everyday name, a real reference, its page organization, what the visitor sees first, and one tradeoff. Contrast layout, density or reading path, not merely different palettes applied to the same template.
+A website can mix modes. A personal homepage may introduce work, its archive support discovery, and its article page support reading. Do not turn all three into posters. Expressive sites and dense tools are both legitimate; match expression to the task and explicit preference.
 
-Prefer actual full-page and inner-page views, with mobile views where available. Inspect current sites if browsing is available; historical observations are not fresh verification. With no visual access, provide clickable references, label the limitation, and restrict claims to supported content structure. Never claim to have seen a design from a text crawl alone. Never substitute invented screenshots for source evidence.
+## Use the case library honestly
 
-Ask for recognition rather than expert specification: “Which feels closest? You can like A's layout and B's colors, or reject all of them.” If every option misses, ask what feels wrong and change the direction of the search. Avoid cycling indefinitely through the same visual family.
+Read [catalog-guide.md](references/catalog-guide.md) before adding records or making evidence claims. The portable [catalog](references/catalog.json) contains historical seeds, not a fully reviewed gallery.
 
-## Translate preferences into decisions
+If Python 3 is available, the bundled script validates and screens records without network access:
 
-Record what the user likes and dislikes at the component level: layout, typography, color, imagery, density, motion. Explain how borrowed elements fit together. Copy neither branding nor source assets without appropriate permission. A favorite hero alone is insufficient evidence for an entire site's architecture.
+```sh
+python3 <skill-dir>/scripts/catalog.py validate
+python3 <skill-dir>/scripts/catalog.py shortlist --mode read --content articles
+```
 
-Turn vague adjectives into testable alternatives. “Premium” can mean restrained hierarchy, rich imagery, or strong editorial composition; it is not a command to use beige and serif fonts. “Cool” need not mean WebGL. A user-requested gradient, card grid or playful motion is legitimate when it supports the brief.
+Default selection requires whole-site evidence. `--include-partial` explicitly allows partially inspected candidates and labels their missing evidence; text-only candidates remain excluded. Empty output is a coverage gap, not permission to invent a reference or silently lower the evidence bar. Without Python, apply the same rules manually.
 
-## Deliver a buildable brief
+Screen by tasks, content, assets and constraints before choosing for visual variety. The script's ordering is a transparent retrieval heuristic, not a beauty or usability score. Review current pages when tools permit. Historical observations are not fresh inspection; a text crawl cannot establish visual quality.
 
-Scale the detail to the project. When producing a durable brief, use `DESIGN-BRIEF.md` in the requested project and include:
+## Turn the selection into an implementation contract
 
-- Audience, content inventory, primary task and constraints.
-- Navigation and the order and purpose of sections on the homepage and at least one relevant inner page; a simple wireframe when useful.
-- Typography roles with appropriate language coverage, semantic color roles, spacing, content width and image treatment. Choose values for the actual project, not a fixed universal palette.
-- Reference URLs or IDs, exactly what to borrow, what to avoid, and why.
-- Mobile reflow and navigation; loading, empty, error and focus states where applicable; motion with reduced-motion behavior.
-- A short acceptance checklist tied to real tasks, plus any unresolved assumptions.
+Follow the brief and preference receipt in [direction-workflow.md](references/direction-workflow.md). Record the selected structure, exact reference aspects, rejected aspects, homepage and inner-page order, mobile behavior and acceptance checks. Label assistant assumptions separately from user choices.
 
-Before building, ask whether the plan would remain identical if the subject and content changed. If so, reconsider the parts that should respond to the brief. Preserve existing design-system choices that work. Do not add visual novelty just to differ.
+Preserve factual product context and existing design systems. Missing `DESIGN.md` does not imply no identity exists. Use existing project documents rather than creating competing authorities. Keep page decisions in `DESIGN-BRIEF.md` or the existing page brief; record reusable tokens in `DESIGN.md` after verifying the implementation. These are development documents, not copy for the site's visitors.
 
-## Review generic defaults in context
+Reference images show source evidence; wireframes and generated concepts show proposals and must be labeled accordingly. Never present a generated picture as a screenshot of a real site. Do not copy reference branding, assets or exact site compositions as a default. Describe the principle being transferred and the adaptation to this content.
 
-Use this review when requested to reduce an AI-looking design, or when checking the implemented direction. For an existing site, start with its content, chosen style and task paths; do not restart preference discovery unless the direction itself is unresolved. These are contextual warning signs, not evidence that AI authored a page:
+## Verify the selected direction survived
 
-- A stock sequence of oversized hero, three feature cards, metrics, testimonials and CTA: require a content or visitor-task reason for each section. Remove unsupported sections; never invent numbers or testimonials to fill them.
-- Equal cards for unequal content: check whether articles, projects or data need a list, index or table. Keep cards when grouping and comparison justify them.
-- Competing gradients, glows, glass and motion: identify which effects support the chosen identity, hierarchy or feedback. Reduce competition without banning a palette or technique.
-- Oversized headings, excessive spacing or faint text: inspect real content lengths and mobile layouts before changing type scale, width, spacing or contrast.
-- Interchangeable copy and structure: replace generic claims with actual content and a useful organization specific to the brief. Do not fabricate subject matter.
-- A polished hero with weak inner pages or broken states: prioritize the visitor's core path and consistency across pages over more hero decoration.
+Use [review.md](references/review.md) after implementation or when asked for review. Inspect the whole page, a key inner page, mobile layout and core task; check loading/error/empty/focus states when relevant. First judge content, hierarchy and selection fidelity, then reconcile any mechanical findings. A clean detector report is not proof of good design.
 
-Report only the most consequential findings, usually three to five, with location, observed evidence, user impact and a concrete correction. Separate preference disagreements from usability defects. Without visual access, mark visual findings unverified. Do not invent a numerical AI-likeness score. Preserve explicit user preferences and established design systems; avoid converging every project on monochrome minimalism. After corrections, revisit the same views and tasks, checking both usability and fidelity to the selected direction.
+Fix material issues within scope, recheck affected views, and report remaining limits. A user who chose vivid color must not receive monochrome minimalism as an automatic anti-slop correction. Do not keep restyling after acceptance criteria hold.
 
-## Continue within the requested scope
-
-If the user requested a website, implement the brief with the tools available; if they requested only direction, deliver the brief. Additional design skills are optional, not prerequisites. Do not install tools, publish a site, or change unrelated configuration merely because this skill is used.
-
-After implementation, compare actual screenshots and task paths against the brief where the environment permits. Check the page beyond the hero: content density, navigation, inner pages, readable contrast, responsive overflow, keyboard focus and meaningful interactions. Report verified behavior separately from unchecked items. Make a focused correction based on evidence rather than replacing the visual direction by default.
+Impeccable is optional. The integration notes in `review.md` explain when its commands help; this skill does not install it, activate hooks, invoke remote catalogs or require image generation automatically.

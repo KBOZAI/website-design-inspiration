@@ -1,0 +1,59 @@
+{
+  "tested_on": "2026-11-01",
+  "engine_version": "0.1.18+engine",
+  "scope": "Static HTML CLI only; no browser, hooks, installation or design-effectiveness test",
+  "cases": [
+    {
+      "target": "before.html",
+      "no_config": true,
+      "exit_code": 2,
+      "findings": 3,
+      "rules": [
+        "ai-color-palette",
+        "gradient-text"
+      ],
+      "stderr_present": false,
+      "passed": true
+    },
+    {
+      "target": "after.html",
+      "no_config": true,
+      "exit_code": 0,
+      "findings": 0,
+      "rules": [],
+      "stderr_present": false,
+      "passed": true
+    },
+    {
+      "target": "intentional.html",
+      "no_config": false,
+      "exit_code": 0,
+      "findings": 0,
+      "rules": [],
+      "stderr_present": false,
+      "passed": true
+    },
+    {
+      "target": "intentional.html",
+      "no_config": true,
+      "exit_code": 2,
+      "findings": 3,
+      "rules": [
+        "ai-color-palette",
+        "gradient-text"
+      ],
+      "stderr_present": false,
+      "passed": true
+    },
+    {
+      "target": "missing.html",
+      "no_config": true,
+      "exit_code": 1,
+      "findings": 0,
+      "rules": [],
+      "stderr_present": true,
+      "passed": true
+    }
+  ],
+  "passed": true
+}

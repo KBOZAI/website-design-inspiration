@@ -1,8 +1,46 @@
-# 网站设计灵感库
+# 网站设计灵感库与方向选择 Skill
+
+让不懂设计术语的人，通过真实整站参考选出方向，再把偏好落实到布局、板块、内页和交互。
+
+**当前状态：v0.2 原型。** 已整合 Impeccable 的可借鉴方法，提供便携 Skill、六条历史种子的结构化索引，以及无依赖的本地筛选工具。可视化图库尚未上线；案例仍需补齐整站证据；设计效果尚未做用户对照验证。
+
+| 入口 | 内容 |
+| --- | --- |
+| [产品范围与进度](PRODUCT.md) | 案例库、方向选择、去 AI 味复核如何配合 |
+| [Impeccable 研究报告](research/impeccable.md) | 固定版本、源码发现、整合取舍、真实检测器测试 |
+| [设计方向 Skill](skills/design-direction/SKILL.md) | 给编程助手使用的入口与按需参考 |
+| [案例规范](skills/design-direction/references/catalog-guide.md) | 布局/内容分类、逐页证据及准入门槛 |
+| [选择流程与简报模板](skills/design-direction/references/direction-workflow.md) | 看参考、表达喜欢/拒绝、记录与验收 |
+| [去 AI 味及工具集成](skills/design-direction/references/review.md) | 有依据的检查与可选上游命令 |
+| [测试与效果评估](EVALUATION.md) | 已验证范围、方向示例与待开展对照 |
+
+## 使用原型
+
+将 `skills/design-direction` **整个目录**复制到支持 SKILL.md 的助手技能目录，保留 references、scripts、LICENSE 和 NOTICE.md。不同助手的加载路径以其官方说明为准。本项目未完成各宿主的安装验收；也不要求先安装 Impeccable。
+
+给助手的请求示例：
+
+> 用 design-direction 帮我做个人网站。我有很多文章和一些项目，说不清想要的风格。先按我的内容给出少量布局方向，让我选；选定后再实现，并检查内页、手机端和去 AI 味。
+
+从仓库根目录运行案例工具（Python 3.9+）：
+
+```sh
+python3 skills/design-direction/scripts/catalog.py validate
+python3 skills/design-direction/scripts/catalog.py shortlist --mode read --content articles --include-partial
+python3 -m unittest discover -s tests -v
+```
+
+`--include-partial` 表示仅探索有局部视觉观察的历史候选，输出会列出证据缺口。去掉该参数只接纳完整整站证据；当前严格结果为空，这是已知资料缺口。该工具不联网、不生成截图、不把排序当作审美评分。
+
+技能的适配内容及脚本按 Apache-2.0 分发，详见 [来源与修改说明](skills/design-direction/NOTICE.md)。网站链接不授予原站素材许可。
+
+## 历史发现库
+
+以下保留之前收集的链接和核查范围，部分偏首屏、动画或资料入口；它们不等于已经通过新版整站标准，也不会全部自动进入推荐结果。
 
 ## 设计方法参考：Impeccable
 
-- [Impeccable 开源项目](https://github.com/pbakaus/impeccable)：面向编程助手的设计指导与审查工具；项目说明提供布局、排版、设计评审及技术审计等能力。本次仅阅读资料，未安装或实际运行。
+- [Impeccable 开源项目](https://github.com/pbakaus/impeccable)：面向编程助手的设计指导与审查工具；项目说明提供布局、排版、设计评审及技术审计等能力。早期仅阅读资料；2026-11-01 已完成源码研究与隔离目录下的检测器样例测试，未安装完整技能或 hooks，详见上方研究报告。
 - [AI Slop 设计问题目录](https://impeccable.style/slop/)（用户分享的[首页入口](https://impeccable.style/#slop)）：通过反例解释常见页面问题，包括同质化卡片网格、卡片套卡片、层级不清、对比度不足和过长的首屏标题。
 - [案例画廊](https://impeccable.style/gallery/)：进一步查看项目提供的设计案例。
 
